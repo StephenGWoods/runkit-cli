@@ -1,0 +1,24 @@
+{
+  "name": "runkit-cli",
+  "version": "0.0.1",
+  "description": "RunKit Prototyping from the comfort of your editor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "postinstall": "node ./print.js"
+  },
+  "bin": {
+    "runkit": "./bin/cli.js"
+  },
+  "preferGlobal": true,
+  "author": "Stephen Woods",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^16.2.2",
+    "cli-spinner": "^0.2.8",
+    "commander": "^2.15.1",
+    "rapid-asciiart": "0.0.1",
+    "request": "^2.86.0",
+    "signale": "^1.0.1"
+  }
+}
