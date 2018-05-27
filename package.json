@@ -1,7 +1,7 @@
 {
   "name": "runkit-cli",
   "version": "0.0.1",
-  "description": "RunKit Prototyping from the comfort of your editor.",
+  "description": "RunKit prototyping from the comfort of your editor.",
   "main": "index.js",
   "scripts": {
     "test": "mocha test",
